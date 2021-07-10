@@ -1,0 +1,13 @@
+
+
+### POST Users
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "firstName":"Carlos",
+    "lastName":"Rocha",
+    "email":"carlos@rocha.com"
+}
+
+### Get Users
